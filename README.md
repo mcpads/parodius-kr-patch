@@ -14,13 +14,25 @@ Claude Code / Codex를 활용하여 리버싱/번역하고, 사람이 기초 검
 
 ### 적용 방법
 
-1. **일본판 원본 ROM**을 준비합니다 (아래 체크섬으로 올바른 파일인지 확인)
-2. [Parodius Da! (NES) KR v1.0.0.bps](./Parodius%20Da!%20(NES)%20KR%20v1.0.0.bps)를 다운로드합니다
+1. **일본판 원본 ROM**을 준비합니다
+2. 원본의 CRC32에 맞는 패치를 다운로드합니다
+   - `D467C0CC`: [패치 다운로드](./Parodius%20Da!%20(NES)%20KR%20v1.0.0.bps)
+   - `81586940`: [iNES 헤더용 패치](./Parodius%20Da!%20(NES)%20KR%20v1.0.0%20(iNES%20Header).bps)
 3. [Floating IPS (Flips)](https://www.smwcentral.net/?p=section&a=details&id=11474) 등 BPS 패처로 원본 ROM에 한글 패치를 적용합니다
 
 ### 체크섬
 
 #### 원본 ROM — Parodius Da! (Japan).nes
+
+| 알고리즘 | 해시                                                               |
+| -------- | ------------------------------------------------------------------ |
+| CRC32    | `D467C0CC`                                                         |
+| MD5      | `828ce0baf9e358527420220c0e4f7631`                                 |
+| SHA-1    | `e5f893a247fee3fa24e5d32129aec53f07304cbb`                         |
+| SHA-256  | `7c9ac15848defca1f6977a167e50e80e6a59c7cad040c5190629f29c2998ea16` |
+| 크기     | 262,144 bytes                                                      |
+
+#### iNES 헤더 포함 원본 ROM — Parodius Da! (Japan).nes
 
 | 알고리즘 | 해시                                                               |
 | -------- | ------------------------------------------------------------------ |
@@ -30,7 +42,17 @@ Claude Code / Codex를 활용하여 리버싱/번역하고, 사람이 기초 검
 | SHA-256  | `ef1dd05ad5b6095d1d8e9a9f81fcb549b5cf0248779d4e76eb7bd9b139de4c9a` |
 | 크기     | 262,160 bytes                                                      |
 
-#### KR 패치 파일 — Parodius Da! (NES) KR v1.0.0.bps
+#### KR 패치 — Parodius Da! (NES) KR v1.0.0.bps
+
+| 알고리즘 | 해시                                                               |
+| -------- | ------------------------------------------------------------------ |
+| CRC32    | `2144DF1C`                                                         |
+| MD5      | `52eb87628820edab4ee06eb131c21fcd`                                 |
+| SHA-1    | `d58d3c15e1aee584df2572afd9dcdc4d03be4335`                         |
+| SHA-256  | `423a2e4e99a4c686204cf47755e01cbd3e2f6de3ba385d77b661b5403ac667d3` |
+| 크기     | 265,498 bytes                                                      |
+
+#### iNES 헤더용 KR 패치 — Parodius Da! (NES) KR v1.0.0 (iNES Header).bps
 
 | 알고리즘 | 해시                                                               |
 | -------- | ------------------------------------------------------------------ |
