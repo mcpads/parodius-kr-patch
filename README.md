@@ -72,6 +72,10 @@ Claude Code / Codex를 활용하여 리버싱/번역하고, 사람이 기초 검
 | SHA-256  | `7740981fba6938119ad4dee427d7f685987aea2c0e56182cc995b2f6829785ac` |
 | 크기     | 524,304 bytes                                                      |
 
+### 패치 정보
+
+- [패처 코드베이스](https://github.com/mcpads/fc-parodius-da-kr-patcher)
+
 ### 크레딧
 
 - **패치 제작자**: mcpads
